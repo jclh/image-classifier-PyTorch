@@ -4,7 +4,7 @@
 ---
 
 
-<img src="screen-example.png" width="768" alt="Example" />
+<img src="example_image/Flowers.png" width="768" alt="Example" />
 
 In this project I use several classification algorithms included in the **scikit-learn** package to model person-level income — using data collected from the 1994 U.S. Census — and predict whether an individual makes more than \$50,000 per year. 
 
