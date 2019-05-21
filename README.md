@@ -1,6 +1,6 @@
 # Flower Image Classifier with [PyTorch](https://pypi.org/project/torch/0.1.2/)
 
-## Application of neural networks for image classification—using tools in [`torchvision`](https://pytorch.org/docs/0.3.0/torchvision/index.html)
+## Application of neural networks for image classification—using [`torchvision`](https://pytorch.org/docs/0.3.0/torchvision/index.html)
 
 ### [Udacity Program: Data Science, Project 2](https://github.com/udacity/DSND_Term1)
 ---
