@@ -2,17 +2,22 @@
 
 ## Application of neural networks for image classification—using [`torchvision`](https://pytorch.org/docs/0.3.0/torchvision/index.html)
 
-### [Udacity Program: Data Science, Project 2](https://github.com/udacity/DSND_Term1)
----
 
+### Example of inference:
 
-<img src="example_image/nb-screen-shot.png" width="768" alt="screen-shot" />
+<p align="center">
+  <img src="example_image/nb-screen-shot.png" width="512" alt="screen-shot" />
+</p>
+
+This project is part of a [Udacity](https://www.udacity.com/) program: [Data Science degree, Project 2](https://github.com/udacity/DSND_Term1)
 
 The objective of this project is to build an application that can be trained on any set of labeled images, using tools in [PyTorch](https://pypi.org/project/torch/0.1.2/)
 
 The network instance in the Jupyter notebook is trained on flower images—[102 Category Flower Dataset](http://www.robots.ox.ac.uk/~vgg/data/flowers/102/index.html)—and provides predictions via a command line application. Below is an example of the type of images included in the dataset:
 
-<img src="example_image/Flowers.png" width="768" alt="Example" />
+<p align="center">
+  <img src="example_image/Flowers.png" width="512" alt="Example" />
+</p>
 
 The project in the Jupyter notebook is broken down into three main steps:
 
@@ -40,7 +45,7 @@ Main files in the repository:
 The objective of this project is to build an application that can be trained on any set of labeled images, using the tool in [PyTorch](https://pypi.org/project/torch/0.1.2/).
 
 
-## Jupyter Notebook usage
+## Use Jupyter Notebook
 
 The Jupyter Project highly recommends new users to install [Anaconda](https://www.anaconda.com/distribution/); since it conveniently installs Python, the Jupyter Notebook, and other commonly used packages for scientific computing and data science.
 
@@ -57,7 +62,7 @@ jupyter notebook flower-classifier-PyTorch.ipynb
 ```
 
 
-## `train.py` usage
+## Use `train.py`
 
 ```bash
 python train.py <data_directory> \
@@ -69,14 +74,14 @@ python train.py <data_directory> \
 		--gpu
 ```
 
-###   Example of basic usage:
+### Example of basic use:
 
 ```bash
 python train.py flowers/ 
 ```
 
 
-## `predict.py` usage
+## Use `predict.py`
 
 ```bash
 python predict.py <path to image> <checkpoint> \
@@ -85,7 +90,7 @@ python predict.py <path to image> <checkpoint> \
 		--gpu
 ```
 
-###   Example of basic usage:
+### Example of basic use:
 
 ```bash
 python predict.py input_image checkpoint --top_k 3 --gpu \
