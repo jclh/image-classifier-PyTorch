@@ -132,9 +132,9 @@ The Jupyter Notebook and the Python modules require the following Python librari
 ## Author
 
 Juan Carlos Lopez
-[GitHub](https://github.com/jclh/)
-[LinkedIn](https://www.linkedin.com/in/jclopezh/)
-jc.lopezh@gmail.com
+- jc.lopezh@gmail.com
+- [GitHub](https://github.com/jclh/)
+- [LinkedIn](https://www.linkedin.com/in/jclopezh/)
 
 
 ## Contributing
